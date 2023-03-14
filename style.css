@@ -1,0 +1,13 @@
+.all{
+    background-image: url(./pics/Polish_20230313_092720244.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 800px;
+    
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+}
