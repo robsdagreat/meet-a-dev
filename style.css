@@ -1,13 +1,24 @@
-.all{
-    background-image: url(./pics/Polish_20230313_092720244.jpg);
+.parent{
+    border: 2px solid red;
+    background-image: url(Polish_20230313_092720244.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 800px;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position: vh;
+
     
 }
-.all{
+.header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+
+}
+.parent1{
+    background-color: 0C3B3B;
+}
+.pcreate1{
+    padding-bottom: 20px;
+}
+.hire{
+    padding-bottom: 20px;
 }
