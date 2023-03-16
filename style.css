@@ -22,7 +22,7 @@ body{
     height: 50px;
     width: 60px;   
 }
-.overlay::before{
+.parent.overlay::before{
     content: "";
     position: absolute;
     top: 0;
@@ -31,6 +31,13 @@ body{
     height: 153%;
     background-color: rgba(0, 0, 0, 0.5);
     pointer-events: none; 
+}
+.parent.overlay{
+    filter: none;
+}
+.parent.overlay a{
+    color: white;
+    text-decoration: none;
 }
 
 .parent1{
@@ -50,7 +57,7 @@ body{
     
 }
 .dvnav{
-    
+    display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solod green;
