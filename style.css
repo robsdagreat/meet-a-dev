@@ -14,8 +14,6 @@ body{
     padding:0px;
     /* align-items: center;
     justify-content: center; */
-    
-    
 }
 .parent img{
     height: 50px;
@@ -64,6 +62,16 @@ body{
     margin: -30px 100px 6px -50px;
     text-decoration: none;
     
+    
+}
+.nav1{
+    margin-right: 50px;
+}
+.nav2{
+    margin-left: 50px;
+}
+.nav3{
+    margin-left: 100px;
 }
 .dvnav a:hover{
     color: black;
@@ -73,14 +81,16 @@ body{
 
 .parent1{
     background-color: 0C3B3B;
+    height:100%;
 }
 .pcreate1{
-    padding-bottom: 20px;
+ margin-left: 36px;
+ max-width: 20ch;
+ font-size: 25px;
 }
 .hire{
     padding-bottom: 20px;
 }
-
 .dvpara1 p{
     
     display: flex;
@@ -89,15 +99,12 @@ body{
     align-items: center;
     margin: -5px;;
     font-size: 50px;
-
 }
 
 .dvpara2 p{
     font-size: 35px;
     line-height: 0.3;
     margin-left: 350px;
-
-
 }
 .read{
     background: #fff;
@@ -110,7 +117,6 @@ body{
     justify-content: end;
     align-items: end;
     padding: 140px;
-    
 }
 .dvlogo img{
     height: 150px;
@@ -118,18 +124,110 @@ body{
     margin: -90px -400px 0px 300px;
     
     display: flex;
-  
-    
 }
-.bold{
+.bold0{
     padding: 10px;
-    font-size: 20px;
-    border: 2px solid red;
+    font-size: 30px;
+    margin:20px 15px -50px 30px;
 }
-.pcreate1{
-    border: 2px solid yellow;
- 
+.bold1{
+    margin: 35px 0px -5px 20px;
+}
+.pcreate2{
+    margin-left: 85px;
+    margin-bottom: -20px;
+    max-width: 22ch;
+    font-size: 25px;
+}
 
-    
-    
+.create{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-areas: 'one'
+    'two'
+    'three';
+}
+@media (min-width: 35px){
+    .create{
+        grid-template-areas:'one two'
+        'three' ;
+    }
+}
+.create:nth-child(1){
+    grid-area:one;
+}
+.create:nth-child(2){
+    grid-area:two;
+}
+.geek{
+    margin: -80px -20px 90px 40px;
+    gap: 5rem;
+
+}
+.suggestion h6{
+    margin: -70px 0px 30px 30px;
+}
+.icon{
+    margin-top: -20px;
+}
+.copyright{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'one'
+    'two'
+    'three'
+    'four';
+}
+@media(min-width:20rem){
+   .copyright{ grid-template-areas: 'one two three'
+    'four two three';}
+}
+.copyright:nth-child(1){
+    grid-area: one;
+}
+.copyright:nth-child(2){
+    grid-area:two;
+}
+.copyright:nth-child(3){
+    grid-area: three;
+}
+.span{
+    grid-row: 1/2;
+}
+.copyright form{
+    margin: -10px -5px 0px 30px;
+}
+.robs{
+    margin-left: 36px;
+    margin-bottom: 40px; 
+}
+h6{
+    font-size: 27px;
+    max-width: 36ch;
+}
+.hire{
+    text-align: justify;
+    width: -5px;
+    height: 10px;
+    border-radius: 5px;
+    margin: -150px -80px 20px 100px;
+
+}
+.cv{
+    text-align: center;
+    margin: 15px -20px -10px 80px;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px ;
+
+}
+h3{
+    font-size: 30px;
+}
+.twitter{
+    margin-right: -10px;
+    margin-left: -10px;
 }

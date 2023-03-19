@@ -120,12 +120,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 .pcreate1{
     border: 2px solid yellow;
-  
 }
 .dvpara2{
     margin: top 5000px;;
@@ -139,9 +136,7 @@ body{
     padding-left: 600px;
     margin: 50px 0px 0px 0px;
     line-height: -8px;
-    
 }
-
 .geek{
  display: flex;  
  justify-content: space-between; 
