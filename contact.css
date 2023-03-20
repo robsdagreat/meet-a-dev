@@ -1,0 +1,215 @@
+body{
+    color: white;
+    font-family:monospace;
+    font-size: 20px;
+    text-decoration: none;
+}
+.parent{
+    background-image: url(Polish_20230313_092720244.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position :center center;
+    height: 150vh;
+    margin: 0px;
+    padding:0px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.parent img{
+    height: 50px;
+    width: 60px;   
+}
+.parent.overlay::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 153%;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none; 
+}
+.parent.overlay{
+    filter: none;
+}
+.parent.overlay a{
+    color: white;
+    text-decoration: none;
+}
+
+.dvhome{
+    /* background:fixed; 
+    background:white;
+    color:black;
+     margin: 20px;  */
+     
+        background:fixed;
+        background:white;
+        color:black;
+        padding: 10px 10px 10px 10px;
+        margin: 20px;
+        width:100px;
+        text-align: center;
+        
+    
+}
+.dvnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float:right;
+    padding: 5px;
+    margin: -30px 100px 6px -50px;
+    text-decoration: none;
+    
+    
+}
+.nav1{
+    margin-right: 50px;
+}
+.nav2{
+    margin-left: 50px;
+}
+.nav3{
+    margin-left: 100px;
+}
+.dvnav a:hover{
+    color: black;
+    text-decoration: none! important;
+
+}
+.dvpara1{
+    margin-top: -40px;
+    padding-bottom: 100px;
+}
+.dvpara1 p{
+       
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 40px -5px -15px -5px;
+       font-size: 50px;
+       line-height: 1;
+   }
+.p1{
+    padding-top: -10px;
+    
+}   
+.dvpara2 p{
+       font-size: 35px;
+       line-height: 0.3;
+       margin-left: 350px;
+   }
+.dvlogo{
+       display: flex;
+       flex-direction: column;
+       justify-content: end;
+       align-items: end;
+       padding: 140px;
+   }
+.dvlogo img{
+       height: 150px;
+       width: 120px;
+       margin: -90px -600px -90px 300px;
+       
+       display: flex;
+   }
+.parent1{
+    background-color: rgba(12, 59, 59, 1);
+    margin-top: -25px;
+}
+.parent1{
+    background-color: 0C3B3B;
+    height:100%;
+}
+
+.para1 h3{
+    max-width: 30ch;
+    margin-left: 360px;
+    }
+.para1 p{ 
+    display: flex;
+    justify-content: center;
+    color: rgba(255,255,255, 0.5);
+}
+#offer{
+    width: 300px; 
+    height: 150px; 
+    margin-left: 520px; 
+    border: 2px solid grey;
+    background: rgba(0,0,0,0.5);
+}
+.para2{
+display: flex;
+justify-content: center;
+padding: 90px;
+}
+.para2 button{
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 18px;
+    border-radius: 10px;
+}
+.robs{
+    margin-left: 90px;
+}
+#icon{
+    margin-left: 360px;
+    margin-top: 50px;
+    font-size: 25px;
+    line-height: 3;
+}
+.twitter{
+    margin-left: -5px; 
+}
+.rate {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 800px;
+    margin-top: -90px;
+}
+.rate img{
+    width: 100%;
+    height: auto;
+}
+.rate a:hover img{
+    opacity: 0.2;
+}
+
+.suggestion{
+    font-size: 20px;
+    margin-left: 90px;
+}
+.copyright{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: auto; */
+    grid-template-areas: 'one'
+    'two'
+    'three';
+}
+@media(min-width:20rem){
+   .copyright{ grid-template-areas: 'one two three'
+    'four two three';}
+}
+.copyright:nth-child(1){
+    grid-area: one;
+}
+.copyright:nth-child(2){
+    grid-area:two ;
+}
+.copyright:nth-child(3){
+    grid-area: three;
+}
+.copyright:nth-child(4){
+    grid-area: four;
+.span{
+        grid-row: 1/2;
+    }
+.copyright{
+    margin-left: 90px;
+}

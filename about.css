@@ -18,8 +18,11 @@ body{
     
 }
 .parent img{
-    height: 50px;
-    width: 60px;   
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 320px;
+    margin-bottom: 90px;
 }
 .parent.overlay::before{
     content: "";
@@ -48,9 +51,9 @@ body{
     background:fixed;
     background:white;
     color:black;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 10px;
     margin: 20px;
-    width:50px;
+    width:110px;
     text-align: center;
     
 }
@@ -58,12 +61,21 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solod green;
     float:right;
     padding: 5px;
-    margin: -30px 6px 6px 6px;
+    margin: -30px 100px 6px -50px;
     text-decoration: none;
     
+}
+
+.nav1{
+    margin-right: 50px;
+}
+.nav2{
+    margin-left: 50px;
+}
+.nav3{
+    margin-left: 100px;
 }
 .dvnav a:hover{
     color: black;
@@ -83,15 +95,10 @@ body{
 .dvpara1 p{
     display: flex;
     justify-content: center;
-    font-size: 30px;
-    margin:-8px;
+    font-size: 35px;
+    margin:-8px 0px 0px -180px;
     text-align: justify;
 }
-.dvpara1{
-    margin-left: 100px;
-    margin-top: 15px;
-}
-
 .dvlogo{
     display: flex;
     flex-direction: column;
@@ -103,43 +110,93 @@ body{
 .dvlogo img{
     height: 150px;
     width: 120px;
-    margin: -90px -400px 0px 300px;
+    margin: -20px -600px 0px 300px;
     
     display: flex;
-  
-    
 }
 
 .bold{
-    padding: 10px;
+    margin-left: 120px;
     font-size: 20px;
-    border: 2px solid red;
-    
+    border-right-width: 15cm;
+    border: 2px solid grey;
+    background: grey;
+}
+.bold h5{
+    text-align: center;
 }
 .bold1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 50px;
 }
 .pcreate1{
     border: 2px solid yellow;
 }
-.dvpara2{
-    margin: top 5000px;;
-}
+
 .dvpara2 p{
     font-size: 30px;
     display: flex;
     justify-content: start;
     align-items: end;
-    line-height:0.2;
+    line-height:0.01em;
     padding-left: 600px;
-    margin: 50px 0px 0px 0px;
-    line-height: -8px;
+    margin: 50px 0px 0px -145px;
+    line-height: -10px;
 }
+.gear{
+    
+    margin-left: 10px;
+    margin-top: -120px;
+   /* max-width: 120px;
+    height: 150px;*/
+}
+
 .geek{
  display: flex;  
- justify-content: space-between; 
- padding: 20px;
+ justify-content: space-around; 
  margin-left: 30px;
+ margin-top: -30px;
 }
+.geek ul{
+    text-decoration: none;
+}
+.create p{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 350px;
+    max-width: 45ch;
+}
+.create h5{
+    font-size: 25px;
+    margin-top: -40px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 110px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+.html{
+    margin-right: 40px;
+}
+.css{
+    margin-right: 40px;
+}
+.figma{
+    margin-right: 40px;
+}
+.js{
+    margin-right: 40px;
+}
+.python{
+    margin-right: 40px;
+}
+.copyright{
+    margin-left: 130px;
+}
+

@@ -56,7 +56,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solod green;
     float:right;
     padding: 5px;
     margin: -30px 100px 6px -50px;
@@ -94,10 +93,10 @@ body{
 .dvpara1 p{
     
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    margin: -5px;;
+    margin: 8px 30px -5px -5px;
     font-size: 50px;
 }
 
@@ -121,9 +120,8 @@ body{
 .dvlogo img{
     height: 150px;
     width: 120px;
-    margin: -90px -400px 0px 300px;
+    margin: -90px -600px -200px 700px;
     
-    display: flex;
 }
 .bold0{
     padding: 10px;
