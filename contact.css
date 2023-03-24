@@ -1,68 +1,65 @@
 body{
-    color: white;
-    font-family:monospace;
-    font-size: 20px;
-    text-decoration: none;
+    margin:0;
 }
-.parent{
-    background-image: url(Polish_20230313_092720244.jpg);
+#maincontainer{
+height: 1000px;
+position: relative ;
+background-color:  rgba(12, 59, 59, 1);;
+}
+.section1{
+    height: 900px;
+    width: auto;
+    background-image: url("./pics1/Polish_20230313_092720244.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position :center center;
-    height: 150vh;
-    margin: 0px;
-    padding:0px;
-    /* align-items: center;
-    justify-content: center; */
+    background-position: center center;
 }
-.parent img{
-    height: 50px;
-    width: 60px;   
-}
-.parent.overlay::before{
+.cover::before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 153%;
+    height: 900px;
     background-color: rgba(0, 0, 0, 0.5);
     pointer-events: none; 
 }
-.parent.overlay{
-    filter: none;
-}
-.parent.overlay a{
+.content{
+    /* border: 2px solid red; */
+    width:80%;
+    height:1420px;
+    background-color:rgba(255,255,255,0.09);
+    /* margin: auto; */
+    position: absolute;
+    top: 330px;
+    right: 140px;  
     color: white;
-    text-decoration: none;
 }
-
 .dvhome{
-    /* background:fixed; 
+    background:fixed;
     background:white;
     color:black;
-     margin: 20px;  */
-     
-        background:fixed;
-        background:white;
-        color:black;
-        padding: 10px 10px 10px 10px;
-        margin: 20px;
-        width:100px;
-        text-align: center;
-        
-    
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    width:110px;
+    text-align: center;
+    position: absolute;
+    top: 10px; 
+    font-weight: bolder;
 }
 .dvnav{
+    color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     float:right;
     padding: 5px;
-    margin: -30px 100px 6px -50px;
+    /* margin: -30px 100px 6px -50px; */
     text-decoration: none;
-    
-    
+    position: absolute;
+    top: 35px; 
+    left: 800px;
+    font-weight: bolder;
 }
 .nav1{
     margin-right: 50px;
@@ -76,48 +73,39 @@ body{
 .dvnav a:hover{
     color: black;
     text-decoration: none! important;
-
 }
 .dvpara1{
     margin-top: -40px;
     padding-bottom: 100px;
 }
 .dvpara1 p{
-       
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       margin: 40px -5px -15px -5px;
        font-size: 50px;
-       line-height: 1;
+       position: absolute;
+       top: 92px;
+       max-width: 29ch;
+       margin-left: 160px;
    }
-.p1{
-    padding-top: -10px;
-    
-}   
+ 
 .dvpara2 p{
-       font-size: 35px;
-       line-height: 0.3;
-       margin-left: 350px;
+       font-size: 40px;
+       max-width: 25ch;
+       position: absolute;
+       top: 350px;
+       left: 160px;
    }
-.dvlogo{
-       display: flex;
-       flex-direction: column;
-       justify-content: end;
-       align-items: end;
-       padding: 140px;
-   }
+   .dvlogo{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
 .dvlogo img{
-       height: 150px;
-       width: 120px;
-       margin: -90px -600px -90px 300px;
-       
-       display: flex;
-   }
+    height: 150px;
+    width: 120px;
+    margin: -90px -600px -200px 700px;
+}
 .parent1{
     background-color: rgba(12, 59, 59, 1);
-    margin-top: -25px;
+    color: white;
 }
 .parent1{
     background-color: 0C3B3B;
@@ -125,8 +113,9 @@ body{
 }
 
 .para1 h3{
-    max-width: 30ch;
-    margin-left: 360px;
+    max-width: 27ch;
+    margin-left: 290px;
+    font-size: 30px;
     }
 .para1 p{ 
     display: flex;
@@ -152,64 +141,83 @@ padding: 90px;
     border-radius: 10px;
 }
 .robs{
-    margin-left: 90px;
+    position: absolute;
+    top: 1860px;
+    margin-left: 130px;
+    margin-bottom: 40px; 
+    font-size: 25px;
+    color: white;
+}
+.right{
+    height: 20px;
 }
 #icon{
-    margin-left: 360px;
-    margin-top: 50px;
-    font-size: 25px;
-    line-height: 3;
+width: 800px;
+margin-left:300px;
 }
 .twitter{
-    margin-left: -5px; 
+margin-left: -10px;
+height: 50px;
+}
+.phone{
+height: 35px; 
+}
+.linked{
+height: 40px;
+}
+.text{
+    font-size: 25px;
 }
 .rate {
     background: none;
     border: none;
     padding: 0;
     cursor: pointer;
-    margin-left: 800px;
-    margin-top: -90px;
+    position: absolute;
+    top: 1000px;
+    left: 700px;
 }
 .rate img{
     width: 100%;
     height: auto;
 }
 .rate a:hover img{
-    opacity: 0.2;
+    opacity: 0.6;
 }
 
 .suggestion{
-    font-size: 20px;
-    margin-left: 90px;
+    font-size: 30px;
+    margin-left: 148px;
+    max-width: 35ch;
 }
-.copyright{
+.feedback input  {
+ width: 200px;
+ height: 30px;
+ border-radius: 10px;
+ /* margin-left: 150px; */
+} 
+.feedback .message{
+height: 60px;
+} 
+.feedback .span{
+ width: 80px;
+ height: 68px;
+ border-radius: 10px;
+ background-color: black;
+ color: white; 
+}    
+.copyright {
+    
+    /* margin-left: 290px;  */
+    } 
+.feedback{
     display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: auto; */
+    gap: 2;
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 'one'
     'two'
     'three';
-}
-@media(min-width:20rem){
-   .copyright{ grid-template-areas: 'one two three'
-    'four two three';}
-}
-.copyright:nth-child(1){
-    grid-area: one;
-}
-.copyright:nth-child(2){
-    grid-area:two ;
-}
-.copyright:nth-child(3){
-    grid-area: three;
-}
-.copyright:nth-child(4){
-    grid-area: four;
-.span{
-        grid-row: 1/2;
-    }
-.copyright{
-    margin-left: 90px;
-}
+    position: absolute;
+    top: 1400px;
+    margin-left: 300px;
+    color: white;}
