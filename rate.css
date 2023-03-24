@@ -77,3 +77,8 @@ background-color:  rgba(12, 59, 59, 1);;
     color: black;
     text-decoration: none! important;
 }
+.dvlogo{
+    position: rlative;
+    top: 600px;
+    left:400px ;
+}
