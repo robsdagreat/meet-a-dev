@@ -58,19 +58,17 @@ background-color:  rgba(12, 59, 59, 1);;
     padding: 5px;
     /* margin: -30px 100px 6px -50px; */
     text-decoration: none;
-    position: absolute;
-    top: 35px; 
-    left: 800px;
-    
+    position: relative;
+    top: 30px; 
 }
 .nav1{
     margin-right: 50px;
 }
 .nav2{
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .nav3{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .dvnav a:hover{
     color: black;
@@ -84,21 +82,17 @@ background-color:  rgba(12, 59, 59, 1);;
     top: 70px;
     left: 100px;
     max-width: 35ch;
-}
+ }
 .dvlogo{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
-    padding: 140px;
-    
-}
+    position: absolute;
+    top: 150px;
+    left: 450px;
+
+} 
 .dvlogo img{
     height: 150px;
     width: 120px;
-    margin: -20px -600px 0px 300px;
-    
-    display: flex;
+    margin: 60px -750px 100px 700px;
 }
 
 .bold{

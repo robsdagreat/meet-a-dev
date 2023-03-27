@@ -54,21 +54,20 @@ background-color:  rgba(12, 59, 59, 1);;
     align-items: flex-end;
     float:right;
     padding: 5px;
-    /* margin: -30px 100px 6px -50px; */
     text-decoration: none;
     position: absolute;
-    top: 35px; 
-    left: 800px;
+    top: 30px; 
+    left: 950px;
     font-weight: bolder;
 }
 .nav1{
     margin-right: 50px;
 }
 .nav2{
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .nav3{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .dvnav a:hover{
     color: black;
@@ -206,10 +205,10 @@ height: 60px;
  background-color: black;
  color: white; 
 }    
-.copyright {
-    
-    /* margin-left: 290px;  */
-    } 
+.span a{
+    text-decoration: none;
+    color: white;
+}
 .feedback{
     display: grid;
     gap: 2;
@@ -221,3 +220,40 @@ height: 60px;
     top: 1400px;
     margin-left: 300px;
     color: white;}
+@media only screen and (max-width: 500px)   
+{
+    body{
+        font-size: 10px;
+    }
+    .dvnav{
+        font-size: 12px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end; 
+        float:right;
+        padding: 5px;
+        text-decoration: none;
+        position: absolute;
+        top: 30px; 
+        left: 200px;
+        font-weight: bolder;
+    }
+    .nav1{
+        margin-right: 30px;
+    }
+    .nav2{
+        margin-left: 0px;
+    }
+    .nav3{
+        margin-top: -50px;
+        margin-left: 200px;
+    }
+    .dvnav a:hover{
+        color: black;
+        text-decoration: none! important;
+    }  
+    .content{
+        font-size: 5px;
+    } 
+}

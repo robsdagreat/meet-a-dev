@@ -45,18 +45,18 @@ background-color:  rgba(12, 59, 59, 1);;
     /* margin: -30px 100px 6px -50px; */
     text-decoration: none;
     position: absolute;
-    top: 35px; 
-    left: 800px;
+    top: 30px; 
+    left: 950px;
     font-weight: bolder;
 }
 .nav1{
     margin-right: 50px;
 }
 .nav2{
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .nav3{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .dvnav a:hover{
     color: black;
@@ -73,6 +73,16 @@ background-color:  rgba(12, 59, 59, 1);;
     position: absolute;
     top: 10px; 
     font-weight: bolder;
+}
+.dvlogo{
+    position: absolute;
+    top: 150px;
+    left: 450px;  
+}
+.dvlogo img{
+    height: 150px;
+    width: 120px;
+    margin: 60px -600px -200px 700px;
 }
 .dvpara1{
     font-size: 50px;
